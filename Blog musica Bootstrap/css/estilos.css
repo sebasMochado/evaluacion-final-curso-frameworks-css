@@ -27,12 +27,35 @@ header {
   color: black;
 }
 
+.post-content {
+  background: white;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.search-form {
+  background: rgb(196, 190, 190);
+}
+
+.icon {
+  width: 80%;
+  height: 80%;
+}
+
 @media (max-width: 770px) {
   body {
     padding: 0;
   }
-  
+
   .redes-sociales {
     padding: 0rem 2rem 2rem 2rem;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .icon {
+    display: none;
   }
 }
